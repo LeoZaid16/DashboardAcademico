@@ -1,0 +1,140 @@
+/* FONT IMPORT */
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,600;1,600&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: #efece9;
+  margin-top: 6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #e2e3e3;
+  font-weight: 600;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.color-icon,
+span,
+p {
+  color: #efece9;
+}
+
+.color-icon:hover,
+span:hover {
+  color: #d0d5ce;
+}
+
+.copyright-bg {
+  background-color: #3b4544;
+}
+
+a {
+  color: #e2e3e3;
+  text-decoration: none;
+}
+
+p,
+h6 {
+  color: #3e4846;
+}
+
+.bg-navbar,
+.bg-footer {
+  background-color: #757c7c;
+}
+
+.section-bg {
+  background-color: #849393;
+  color: #3e4846;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.content-bg:hover{
+  background-color: #CBCECC;
+}
+
+.content-bg {
+  background-color: #d0d5ce;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 718px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 942px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1150px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1350px;
+  }
+}
+
+.table-format {
+  background-color: #d9d9d9; /* fondo de la tabla */
+  color: #192524;
+  border-collapse: collapse;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.table-format th {
+  background-color: #bcc3c1;
+  color: #192524;
+  font-weight: bolder;
+}
+
+.table-format td,
+.table-format th {
+  padding: 0.75rem;
+  border: 2px solid #3c5759;
+  vertical-align: middle;
+}
+
+/* Scroll personalizado */
+.scroll-wrapper {
+  max-height: 300px;
+  overflow-y: auto;
+  direction: rtl;
+  border-radius: 1rem;
+}
+
+.scroll-inner {
+  direction: ltr;
+  margin-right: 2px; /* separa scroll de tarjetas */
+}
+.scroll-wrapper::-webkit-scrollbar {
+  width: 12px;
+}
+.scroll-wrapper::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 1rem;
+}
+.scroll-wrapper::-webkit-scrollbar-thumb {
+  background-color: #b7bdbd;
+  border-radius: 1rem;
+}
+
+.btn-custom {
+background-color: #3C5759;
+color: #CBCECC;
+}
